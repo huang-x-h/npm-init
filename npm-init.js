@@ -12,7 +12,7 @@ module.exports = {
       return command;
     }
   }),
-  script: prompt('test command', function(s) {
+  scripts: prompt('test command', function(s) {
     return {test: s};
   }),
   repository: prompt('create github repo', 'yes', function(val) {
